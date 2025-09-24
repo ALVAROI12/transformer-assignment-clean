@@ -37,16 +37,23 @@ transformer-assignment/
 
 ```bash
 # Clone repository
-git clone https://github.com/ALVAROI12/transformer-assignment-clean
-cd transformer-assignment
+git clone https://github.com/ALVAROI12/transformer-assignment-clean.git
+cd transformer-assignment-clean
 
 # Create virtual environment
 python3 -m venv transformer_env
 source transformer_env/bin/activate
 
 # Install dependencies
-pip install torch numpy matplotlib tqdm requests seaborn psutil
+pip install -r requirements.txt
+
+# Train model (required - no pre-trained model included)
+cd src
+python train.py
 ```
+
+## Important Note
+The trained model checkpoints (ckpt.pt, ckpt_final.pt) are excluded due to GitHub size limits. The model must be trained from scratch using the provided training script.
 
 ### Training
 
