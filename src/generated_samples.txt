@@ -1,0 +1,134 @@
+TRANSFORMER TEXT GENERATION SAMPLES
+==================================================
+Generated on: 2025-09-24 17:31:29
+Model: 10.8M parameter GPT-style Transformer
+Dataset: Tiny Shakespeare (character-level)
+Training Loss: 1.0564 | Validation Loss: 1.2575
+==================================================
+
+SAMPLE 1: Classic Romeo dialogue
+------------------------------
+Prompt: 'ROMEO:'
+Temperature: 0.8 | Top-k: 20 | Top-p: 0.9 | Max Tokens: 200
+
+Generated Text:
+ROMEO:
+The gods that do resolve me not and leave.
+
+ROMEO:
+I will not be long in blood of the mother.
+
+ROMEO:
+And be not a thousand too; when I have made thee,
+Nor I will be changed for thee with thy head,
+W
+
+======================================================================
+
+SAMPLE 2: Juliet dialogue with conservative sampling
+------------------------------
+Prompt: 'JULIET:'
+Temperature: 0.7 | Top-k: 15 | Top-p: 0.8 | Max Tokens: 200
+
+Generated Text:
+JULIET:
+I will stay and so much strong to the court?
+
+LADY CAPULET:
+Why, then, then, I have done no more straight,
+When I was born to my sword, I have left it.
+
+LADY CAPULET:
+The great princess of the bloody
+
+======================================================================
+
+SAMPLE 3: Famous Hamlet opening with creative sampling
+------------------------------
+Prompt: 'To be or not to be'
+Temperature: 0.9 | Top-k: 25 | Top-p: 0.9 | Max Tokens: 250
+
+Generated Text:
+To be or not to be safeguard, sir, and your honours
+May not see the absence and your master.
+
+BENVOLIO:
+Not and now what say you, my lord.
+
+MERCUTIO:
+Believe me, you shall well then to do not all.
+
+BENVOLIO:
+Sir, sir, I have shed a word by a sword:
+Therefore, if thou 
+
+======================================================================
+
+SAMPLE 4: Crowd character dialogue
+------------------------------
+Prompt: 'First Citizen'
+Temperature: 0.8 | Top-k: 30 | Top-p: 0.85 | Max Tokens: 180
+
+Generated Text:
+First Citizen:
+But the king hath been been but the battle of state
+And make us better place of love of me.
+
+First Citizen:
+He was not deserved to the morning than he hath
+Before his rest, he wi
+
+======================================================================
+
+SAMPLE 5: Hamlet dialogue with balanced sampling
+------------------------------
+Prompt: 'HAMLET:'
+Temperature: 0.75 | Top-k: 20 | Top-p: 0.9 | Max Tokens: 220
+
+Generated Text:
+HAMLET:
+I think you and so be content as you can your heart.
+
+CAPULET:
+Ay, my lord.
+
+JULIET:
+What is the lark? and what say you have not the duke?
+
+Nurse:
+No, sir, no, sir.
+
+JULIET:
+What is the charge of the duke?
+
+JULIET:
+Ah, 
+
+======================================================================
+
+SAMPLE 6: Nurse character with varied temperature
+------------------------------
+Prompt: 'Nurse:'
+Temperature: 1.0 | Top-k: 40 | Top-p: 0.9 | Max Tokens: 200
+
+Generated Text:
+Nurse:
+This is my deserved in the duke,
+That end my soldiers to live his spring.
+
+KING RICHARD III:
+Ay, when my wife shall be his power in life,
+And for you might on my brother's father,
+Suppose my brother'
+
+======================================================================
+
+TECHNICAL NOTES:
+--------------------
+• All samples generated using different sampling strategies
+• Temperature controls randomness (higher = more creative)
+• Top-k limits to k most likely tokens
+• Top-p (nucleus) uses cumulative probability threshold
+• Model shows understanding of Shakespeare dialogue structure
+• Character names and period-appropriate vocabulary learned
+• Demonstrates successful autoregressive text generation
