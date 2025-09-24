@@ -37,7 +37,7 @@ transformer-assignment/
 
 ```bash
 # Clone repository
-git clone <your-repo-url>
+git clone https://github.com/ALVAROI12/transformer-assignment-clean
 cd transformer-assignment
 
 # Create virtual environment
